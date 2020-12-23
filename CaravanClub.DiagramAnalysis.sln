@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaravanClub.DiagramAnalysis.Application", "CaravanClub.DiagramAnalysis.Application\CaravanClub.DiagramAnalysis.Application.csproj", "{C588AE31-D297-42E2-8BCB-300177BB63BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{67E91B49-9245-4FF2-8545-01B28C5776AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaravanClub.DiagramAnalysis.Domain", "CaravanClub.DiagramAnalysis.Domain\CaravanClub.DiagramAnalysis.Domain.csproj", "{586B1E1D-9F34-47CA-B203-B272F617AD5F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{A98991CB-EFE5-40F1-A648-D67C0DA332E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaravanClub.DiagramAnalysis", "CaravanClub.DiagramAnalysis\CaravanClub.DiagramAnalysis.csproj", "{2B4B8267-AB58-4D9F-9531-34B786DA40B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaravanClub.DiagramAnalysis.UnitTests", "CaravanClub.DiagramAnalysis.UnitTests\CaravanClub.DiagramAnalysis.UnitTests.csproj", "{49C0E920-56F8-4390-8619-AC4E27E8A054}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C588AE31-D297-42E2-8BCB-300177BB63BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C588AE31-D297-42E2-8BCB-300177BB63BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C588AE31-D297-42E2-8BCB-300177BB63BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C588AE31-D297-42E2-8BCB-300177BB63BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{586B1E1D-9F34-47CA-B203-B272F617AD5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{586B1E1D-9F34-47CA-B203-B272F617AD5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{586B1E1D-9F34-47CA-B203-B272F617AD5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{586B1E1D-9F34-47CA-B203-B272F617AD5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B4B8267-AB58-4D9F-9531-34B786DA40B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B4B8267-AB58-4D9F-9531-34B786DA40B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B4B8267-AB58-4D9F-9531-34B786DA40B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B4B8267-AB58-4D9F-9531-34B786DA40B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49C0E920-56F8-4390-8619-AC4E27E8A054}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49C0E920-56F8-4390-8619-AC4E27E8A054}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49C0E920-56F8-4390-8619-AC4E27E8A054}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49C0E920-56F8-4390-8619-AC4E27E8A054}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C588AE31-D297-42E2-8BCB-300177BB63BE} = {67E91B49-9245-4FF2-8545-01B28C5776AC}
+		{586B1E1D-9F34-47CA-B203-B272F617AD5F} = {67E91B49-9245-4FF2-8545-01B28C5776AC}
+		{2B4B8267-AB58-4D9F-9531-34B786DA40B5} = {A98991CB-EFE5-40F1-A648-D67C0DA332E4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B780A5FD-1E61-40CF-A274-00833215B94E}
+	EndGlobalSection
+EndGlobal
